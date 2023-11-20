@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: lightgrey;
+  opacity: 86%;
+}
+
+ul {
+  margin-left: 100px;
+  margin-right: -50px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.logo-container {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+/* .logo-container img {
+    margin-left: 10px; Adjust the spacing between the logos
+  } */
+.logo-left {
+  height: 60px;
+  width: 100px;
+  margin-left: -110px;
+  margin-top: 30px;
+}
+
+.line {
+  width: 112px;
+  height: 47px;
+  border-left: 1px solid white;
+  position: absolute;
+  margin-left: -7px;
+  margin-top: 37px;
+}
+
+.logo-right {
+  height: 60px;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+/*.logo{
+    
+    height: auto; 
+    margin-right: 10px;
+    height: 10px;
+}
+.logo-container {
+    padding-right: -6%;
+    display: flex;
+    align-items: center;
+  }*/
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  color: #6683e1;
+  padding: 0px 20px;
+}
+a,
+.one1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: darkblue;
+  cursor: pointer;
+  text-decoration: none;
+  height: 50px;
+}
+.one1 {
+  background: linear-gradient(to right, #230356, #859eee);
+  padding: 9px 25px;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.4s ease 0s;
+  margin-left: 50px;
+  color: white;
+}
+
+nav li a:hover {
+  color: skyblue;
+  transition: all 0.4s;
+}
+.container {
+  text-align: center; /* Optional - aligns the container in the center */
+}
+
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.crypth {
+  margin-left: -70px;
+}
+
+.left-text {
+  float: left;
+  font-family: "Poppins";
+}
+.right-text {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-left: 470px;
+  margin-top: 10px;
+}
+
+hr {
+}
+/*.container3 {
+ align-items: left;
+}
+
+.text {
+  padding: 0%;
+  margin-left: 0%;
+}
+.image {
+  margin-left: 50px;
+}  
+.div1sub{
+  font-size: 16px;
+  width: 70%;
+  height: 150px;
+  padding-left: 10px;
+  align-items: left;
+}
+ */
+.sear1 {
+  float: right;
+  height: 320px;
+  width: 180px;
+}
+.button1 {
+  position: absolute;
+  right: 500px;
+}
+.left1-text {
+  text-indent: 2em;
+}
+.secondhalf {
+  background-color: black;
+  color: white;
+}
+.photo {
+  text-align: center;
+  color: skyblue;
+}
+.previous {
+  background-color: skyblue;
+  color: darkblue;
+}
+
+.next {
+  background-color: skyblue;
+  color: darkblue;
+}
+
+.round {
+  border-radius: 30%;
+}
+
+.logo2 {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+}
+
+/* .logo img {
+  width: 80px; /* Adjust the width as needed */
+/* height: 100px; Adjust the height as needed */ /* margin-left: -30px; Adjust the spacing between the image and text */
+/* }  */
+
+.logo3 img {
+  height: 100px;
+  width: 10 0px;
+  padding-left: 40px;
+}
+
+/* .custom-button {
+ /* background: linear-gradient(to right,skyblue.5%,white 100%); /* Set the background color */
+/* color: #FFFFFF; /* Set the text color */
+/* padding: 10px 20px; Adjust the padding as needed */
+/* border: none; Remove the default button border */
+/* border-radius: 5px; Add rounded corners if desired */
+/* font-size: 16px; Adjust the font size as needed */
+/* width: 200px; */
+/* }  */
+
+.heyhi {
+  color: #6683e1;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.alllogo {
+  margin-right: 40px;
+}
+.buttonfin {
+  padding-left: 1080px;
+  margin-top: -80px;
+}
+
+/* .outer{
+  border-radius: 10%;
+} */
+
+.contactBox {
+  margin-top: -35px;
+  border-radius: 6%;
+  background-color: white;
+  color: purple;
+  height: 60px;
+  margin-bottom: 42px;
+}
+
+.contactBoxInner {
+  /* font-weight: 300; */
+  /* border-radius: 12%; */
+  height: 60px;
+  background-color: lightblue;
+  width: 30%;
+  padding: 11px 60px 30px 10px;
+  /* padding-right: 40px;  */
+  /* font-size: 20px;    */
+  position: relative;
+}
+
+strong {
+  position: absolute;
+  top: 22px;
+}
+
+.finButton {
+  border-radius: 5px;
+  padding: 8px 5px;
+  background-color: lightcyan;
+}
+
+/* .testimonial{
+  background:linear-gradient(rgb(36, 36, 68),rgb(104,104,241));
+  height: 300px;
+  margin-top: 60px;
+} */
+/* .contactBoxInnerLast{
+  color: white;
+} */
+/* .pic1{
+  border-radius:50%;
+  height: 40%;
+  width: 10%;
+  border:2px solid white;
+  float: left;
+      margin-right: 10px;
+} */
+/* .lastdiv{
+  float: left;
+      margin-right: 10px;
+      text-align: left;
+} */
+
+.hamburger {
+  width: 50px;
+  margin-right: -100px;
+}
+
+.para {
+  margin-left: -70px;
+}
+
+.container1 {
+  margin-left: -70px;
+}
+
+.container2 {
+  margin-right: -60px;
+  width: 100px;
+}
+
+.right-box {
+  margin-left: 25px;
+}
+/* partner*/
+/* #partner{
+  width: 100%;
+  display: flex;
+  background: linear-gradient(to bottom,skyblue 75%,white);
+  }
+
+  .heyhi{
+    color: #6683e1;
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+  .alllogo{
+    margin-right: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .alllogo > img{
+    width: 18%;
+    margin: 5px;
+    
+  }
+
+  .buttonfin{
+    text-align: right;
+    width: 12%;
+    padding-right: 20px;
+  } */
+
+/* testimonial div css*/
+
+.testimonial {
+  width: 100%;
+  display: flex;
+  background: linear-gradient(rgb(36, 36, 68), rgb(104, 104, 241));
+  height: 450px;
+  margin-top: 60px;
+}
+
+.gridimage {
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gridimage-header {
+  flex: 80%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.oval-image {
+  border-radius: 50%;
+  max-width: 50%;
+  border: 2px solid white;
+  float: left;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.gridimage-text {
+  color: white;
+  font-size: 16px;
+}
+
+.gridimage-footer {
+  flex: 20%;
+  margin: 5px;
+  font-size: small;
+  line-height: 20px;
+  color: white;
+  
+}
+
+/* footer div css*/
+footer {
+  background-color: #eeecec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+
+.rights {
+  
+  flex-basis: 100%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: white;
+}
+
